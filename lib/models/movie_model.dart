@@ -22,6 +22,8 @@ class MovieModel {
   });
 }
 
+List<MovieModel> savedMovies = [];
+
 List<MovieModel> movieList = [
   MovieModel(
       title: "Inception",
